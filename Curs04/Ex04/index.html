@@ -1,12 +1,244 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta
+    http-equiv="X-UA-Compatible"
+    content="IE=edge"
+  />
   <title>Page Title</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
 
+  <style>
+    .navigation {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .navigation li {
+      display: inline;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Welcome to our newsletter</h1>
+  <p>
+    <img
+      src="images/newsletter.JPG"
+      alt="newsletter"
+    />
+  </p>
+
+  <p>Subscribe,<b>now</b>!</p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+    est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+    est laborum.
+  </p>
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+  non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  <p></p>
+
+  <ul class="navigation">
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Privacy"
+      >Privacy</a>
+    </li>
+
+
+
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="GDPR"
+      >GDPR</a>
+    </li>
+
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Customer service"
+      >Customer service</a>
+    </li>
+
+
+
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Contact"
+      >Contact</a>
+    </li>
+  </ul>
+  <h2>Newsletter Form</h2>
+  <form>
+    <fieldset>
+      <legend>Subscribe</legend>
+      <label>Title:</label>
+      <label for="gender-mr">Mr</label>
+      <input
+        type="radio"
+        id="gender-mr"
+        name="gender"
+        value="mr"
+        checked
+      />
+
+      <label for="gender-ms">Ms</label>
+      <input
+        type="radio"
+        id="gender-ms"
+        name="gender"
+        value="ms"
+      />
+
+      <label for="gender-unspec">Unspecified</label>
+      <input
+        type="radio"
+        id="gender-unspec"
+        name="gender"
+        value="unspec"
+      />
+      <br />
+
+      <label for="name">*Nume</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Name"
+        required
+      />
+      <br />
+
+      <label for="surname">*Surname</label>
+      <input
+        type="text"
+        id="surname"
+        name="surname"
+        placeholder="Surname"
+        required
+      />
+      <br />
+
+      <label for="email">*Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Email"
+        required
+      />
+      <br />
+      <input
+        type="checkbox"
+        name="email-consent"
+        id="email-consent"
+      />
+      <label for="email-consent">Agree to this and <i>we will send you emails</i>.</label>
+      <br />
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      />
+      <label for="gdpr-consent">GDPR generic consent.</label>
+
+      <br /><br />
+      <button type="submit">Send</button>
+    </fieldset>
+  </form>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+    est laborum.
+  </p>
+
+  <ul class="navigation">
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Privacy"
+      >Privacy</a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="GDPR"
+      >GDPR</a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Customer service"
+      >Customer service</a>
+    </li>
+  </ul>
+
+  <ul>
+    <li>
+      <a
+        href="http:/google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Contact"
+      >Contact</a>
+    </li>
+  </ul>
 </body>
+
 </html>
