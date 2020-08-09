@@ -1,0 +1,20 @@
+/* 02.Pentru checkboxuri coloreaza elementul
+label verde atunci cand un checkbox este activat  */
+
+input[type='checkbox']:checked + label {
+  color: green;
+}
+
+/*03. Pentru grupul radio, coloreaza fundalul
+ elementului label verde deschis cand sunt
+  activate */
+input[name='gender']:checked + label {
+  background-color: lightgreen;
+}
+
+/* Pentru elementul select, coloreaza optiunea
+selectata cu rosu si textul bold  */
+select option:checked {
+  color: red;
+  font-weight: bold;
+}

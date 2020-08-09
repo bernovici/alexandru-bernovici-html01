@@ -1,0 +1,32 @@
+/* 01.In documentul din director aplica pe
+ancorele din lista cu clasa .main o stare
+de hover in care linia dispare */
+
+.main a:hover {
+  text-decoration: none;
+}
+
+/* 02.Aplica pe fiecare a doua ancora din lista cu
+ clasa .main o stare de hover in care culoarea
+  se face rosie  */
+.main li:nth-last-of-type(even) a:hover {
+  color: red;
+}
+
+/* 03.Aplica pe elementul h1 o stare de hover in
+ care acesta este subliniat  */
+h1:hover {
+  text-decoration: underline;
+  background-color: red;
+}
+
+/*04. Aplica pe elementele i din paragrafe o stare de
+ hover in care acestea sunt mutate cu 2px
+ la dreapta si in sus atunci cand mouseul se
+  afla pe paragraf */
+p i:hover {
+  transform: translate(2px, -2px);
+  display: inline-block;
+}
+
+/* vezi si p:hover > i {} */
