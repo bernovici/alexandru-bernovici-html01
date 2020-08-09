@@ -9,17 +9,33 @@ body {
   border: 1px solid black;
   float: left;
 }
+/* 01.Schimba valorile pentru fundal in valorile
+echivalente hex
+02.Pentru primul patrat
+Seteaza bordura verde
+Seteaza culoarea textului mov
+*/
 
 .box-1 {
   background-color: #7fffd4;
   border-color: green;
   color: purple;
 }
+/*03. Pentru al doilea patrat
+Seteaza bordura gri
+Seteaza culoarea textului alb  */
 
 .box-2 {
   background-color: #a52a2a;
+  border: grey;
+  color: white;
 }
+
+/*05. Seteaza bordura albastra
+Seteaza culoarea textului rosu */
 
 .box-3 {
   background-color: #ffe4c4;
+  border: blue;
+  color: red;
 }
