@@ -1,1 +1,60 @@
+/*In documentul din director, creaza un element div cu clasa my-div care sa aibe latimea de 500px, inaltimea de 102px, fundalul rosu si bordura verde de 1px. Elementul sa fie si centrat.*/
+
+.my-div {
+  width: 500px;
+  height: 102px;
+  background-color: red;
+  border: 1px solid green;
+  margin: 20px auto;
+}
+
+/* Creaza un div cu clasa blue latimea de 150px, inaltimea de 300px, colturile rotunjite de 20 si fundalul albastru care sa aibe
+padding-top -> 25px;
+padding-bottom -> 10px;
+padding-left -> 13px;
+padding-right -> 21px
+*/
+.blue {
+  width: 150px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: blue;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 21px;
+}
+/*
+Creaza un div cu clasa container care sa aibe latimea de 100%,
+ inaltime nespecificata cu o bordura verde solida
+  de 3px si toate valorile pentru padding 15px
+
+ */
+.container {
+  width: 100%;
+  border: 3px solid green;
+  padding: 15px;
+}
+
+/* Creaza un div cu clasa green, latimea de 500px,
+inaltimea de 220px, cu bordura neagra de 1px,
+ care sa aibe:
+padding-top, padding-bottom -> 13px;
+padding-left, padding-right -> 19px;
+ */
+.green{
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  /* centrare cutii */
+
+  margin: 0 auto;
+  padding top: 13px;
+  padding-bottom:13px;
+  padding-left: 19px;
+  padding-right: 19px;
+  background-color: green;
+
+
+}
 
