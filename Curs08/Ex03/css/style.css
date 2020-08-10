@@ -1,4 +1,7 @@
-/*In documentul din director, creaza un element div cu clasa my-div care sa aibe latimea de 500px, inaltimea de 102px, fundalul rosu si bordura verde de 1px. Elementul sa fie si centrat.*/
+/* 01.In documentul din director, creaza un element
+div cu clasa my-div care sa aibe latimea de 500px,
+ inaltimea de 102px, fundalul rosu si bordura
+ verde de 1px. Elementul sa fie si centrat.*/
 
 .my-div {
   width: 500px;
@@ -8,7 +11,9 @@
   margin: 20px auto;
 }
 
-/* Creaza un div cu clasa blue latimea de 150px, inaltimea de 300px, colturile rotunjite de 20 si fundalul albastru care sa aibe
+/* 02.Creaza un div cu clasa blue latimea
+de 150px, inaltimea de 300px, colturile
+rotunjite de 20 si fundalul albastru care sa aibe
 padding-top -> 25px;
 padding-bottom -> 10px;
 padding-left -> 13px;
@@ -25,7 +30,7 @@ padding-right -> 21px
   padding-right: 21px;
 }
 /*
-Creaza un div cu clasa container care sa aibe latimea de 100%,
+03.Creaza un div cu clasa container care sa aibe latimea de 100%,
  inaltime nespecificata cu o bordura verde solida
   de 3px si toate valorile pentru padding 15px
 
@@ -36,7 +41,7 @@ Creaza un div cu clasa container care sa aibe latimea de 100%,
   padding: 15px;
 }
 
-/* Creaza un div cu clasa green, latimea de 500px,
+/*04.Creaza un div cu clasa green, latimea de 500px,
 inaltimea de 220px, cu bordura neagra de 1px,
  care sa aibe:
 padding-top, padding-bottom -> 13px;
@@ -54,7 +59,62 @@ padding-left, padding-right -> 19px;
   padding-left: 19px;
   padding-right: 19px;
   background-color: green;
+}
+/* 05.Creaza un div cu clasa purple si fundalul mov,
+bordura de 2 px punctata verde, colturile rotunjite
+ de 40 cu valorile pentru padding:
+padding-left -> 20px
+padding-top -> 10px
+padding-bottom -> 0
+padding-right -> 15px; */
 
+.purple{
+  background-color: purple;
+border: 2px dotted green ;
+border-radius: 40px;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 0px;
+padding-right: 15px;
+}
+
+/* 06.Creaza un div cu clasa turquoise si fundalul turcoaz,
+bordura albastra de 1px, colturile rotunjite de
+15 cu valorile pentru padding:
+padding-top, padding-bottom -> 11px
+padding-left, padding-right -> 20px */
+.turquoise{
+  background-color: turquoise;
+  border: 1px blue;
+  border-radius: 15px;
+  padding-top:11px;
+  padding-bottom:11px;
+padding-left:20px;
+padding-right:20px;
 
 }
+
+
+/*07.Creaza un div cu clasa transparent, cu bordura rosie de 2px
+ si valorile pentru padding setate la 20 pentru toate partile,
+  si pentru margin:
+margin-bottom, margin-top ->20px;
+margin-left, margin-right -> auto */
+
+.transparent{
+  border:2px red;
+  padding: 20px ;
+  margin-bottom:20px ;
+  margin-top: 20px;
+  margin-left: auto;
+  margin right: auto;
+}
+
+
+
+
+
+
+
+
 

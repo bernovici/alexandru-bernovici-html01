@@ -114,21 +114,80 @@
   font-style: normal;
   font-display: swap;
 }
+/* 01.Dupa setarea fonturilor: Roboto (Italic, Regular, Bold) si Julius Sans */
+
+body {
+  font-family: 'Roboto(Italic, Regular, Bold) ' 'Julius Sans';
+  src: url('/Curs08/Ex02/fonts/Roboto-Italic.woff');
+}
+/* 02.Coloreaza elementele h1 rosu, aplica fontul Julius pe ele si seteaza-le o marime de 35px */
 
 h1 {
   color: red;
   font-size: 34px;
   font-family: 'Julius Sans One';
 }
-
+/*03. Aplica fontul Roboto Bold pe elemente b din paragrafe  */
 p b {
   font-family: 'Roboto', 'sans-serif';
   font-style: italic;
   color: blue;
   text-decoration: underline;
 }
+/*04.Aplica fontul Roboto Regular pe elementul body
+ astfel incat tot textul documentului
+ sa foloseasca acest font  */
+body {
+  font-family: 'Roboto-Regular';
+}
+/* 05. Aplica fontul Roboto Italic pe
+ elementele i, coloreaza-le albastru
+  si subliniaza-le  */
 
+i {
+  font-family: 'Roboto-Italic';
+  color: blue;
+  text-decoration: underline;
+}
+/*06. Aplica fontul Roboto Bold pe ancorele
+ aflate in liste ordonate  */
 ol a {
-  font-family: 'Roboto', 'sans-serif';
-  font-weight: bold;
+  font-family: 'Roboto-Bold';
+}
+
+/*07 Aplica fontul Julius pe elementele li ale
+listelor neordonate si seteaza-le line-height
+de 25 */
+
+ul li {
+  font-family: 'Julius';
+  line-height: 25px;
+}
+
+/* 08.Aplica fontul Roboto Bold elemente h3,
+ coloreaza-le verde si seteaza-le
+  o marime de 28px  */
+
+h3 {
+  font-family: 'Roboto-Bold';
+  color: blue;
+  line-height: 28px;
+}
+
+/*09. Aplica fontul Julius pe elementele h2,
+ coloreaza-le mov, subliniaza-le si seteaza-le
+  o marime de 32px */
+
+h2 {
+  font-family: 'Julius';
+  color: purple;
+  line-height: 32px;
+  text-decoration: underline;
+}
+
+/*10. Aplica line-height de 23 pe paragrafele
+documentului */
+
+p {
+  line-height: 23px;
 }
